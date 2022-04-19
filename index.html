@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodle House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/logo.jpeg" class="logo" alt="logo"></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag"><a href="cart.html"><i class="bi bi-bag"></i></a></li>
+                <a href="#" id="close"><i class="bi bi-x-lg"></i></a>
+            </ul>
+        </div>
+
+        <div id="hamburger">
+            <a href="cart.html"><i class="bi bi-bag"></i></a>
+            <i id="burger" class="bi bi-three-dots-vertical"></i>
+        </div>
+
+    </section>
+
+    <section id="hero">
+        <h4>Lorem ipsum dolor sit.</h4>
+        <h2>New menu available</h2>
+        <h1>Noodle House</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, cupiditate.</p>
+        <button>Order Now</button>
+    </section>
+
+    <section id="features" class="section-p1">
+        <div class="feature-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+            <h6>Delivery</h6>
+        </div>
+
+        <div class="feature-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+              </svg>
+            <h6>Promotions</h6>
+        </div>
+
+        <div class="feature-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Zm8.252-6.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"/>
+              </svg>
+            <h6>Allergen Info</h6>
+        </div>
+
+        <div class="feature-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+              </svg>
+            <h6>News</h6>
+        </div>
+
+        <div class="feature-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+              </svg>
+            <h6>Contact</h6>
+        </div>
+    </section>
+
+    <section id="menu1" class="section-p1">
+        <h2>Featured Menu</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <div class="menu-container">
+
+            <div class="menu" onclick="window.location.href='menu.html';"> <!-- parent for cart -->
+                <img src="images/kueytiaw tom yam.jpg" alt="">
+                <div class="description">
+                    <span>Tomyam</span>
+                    <h5>Kuey Tiaw Tomyam</h5>
+                    <div class="chilli">
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                    </div>
+                    <h4>RM 15</h4>
+                </div> 
+                <a href="#"> <!-- child for class menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                </a>   
+            </div>
+
+            <div class="menu" onclick="window.location.href='menu.html';"> <!-- parent for cart -->
+                <img src="images/curry ayam prawn laksa.jpg" alt="">
+                <div class="description">
+                    <span>Laksa</span>
+                    <h5>Curry Laksa</h5>
+                    <div class="chilli">
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                    </div>
+                    <h4>RM 16</h4>
+                </div> 
+                <a href="#"> <!-- child for class menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                </a>   
+            </div>
+
+            <div class="menu" onclick="window.location.href='menu.html';"> <!-- parent for cart -->
+                <img src="images/maggi kari.jpg" alt="">
+                <div class="description">
+                    <span>Maggi</span>
+                    <h5>Maggi Kari</h5>
+                    <div class="chilli">
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                    </div>
+                    <h4>RM 8</h4>
+                </div> 
+                <a href="#"> <!-- child for class menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                </a>   
+            </div>
+
+            <div class="menu" onclick="window.location.href='menu.html';">
+                <img src="images/spicy beef noodle.jpg" alt="">
+                <div class="description">
+                    <span>Chinese Noodle</span>
+                    <h5>Beef Noodle</h5>
+                    <div class="chilli">
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                        <i class="bi bi-droplet-fill"></i>
+                    </div>
+                    <h4>RM 18</h4>
+                </div> 
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                </a>   
+            </div>
+
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h2>Up to <span>20% Off</span> for the entire Ramadhan Month!</h2>
+        <button>Explore More</button>
+    </section>
+
+    <section id="photos" class="section-p1">
+        <div class="photo-box">
+            <h3>Spicy</h3>
+        </div>
+
+        <div class="photo-box photo-box2">
+            <h3>Savoury</h3>
+        </div>
+    </section>
+
+    <section id="photosbelow">
+       
+        <div class="photo-box">
+            <h2>Hearty</h2>
+        </div>
+        <div class="photo-box photo-box2">
+            <h2>Affordable</h2>
+        </div>
+        <div class="photo-box photo-box3">
+            <h2>Rich</h2>
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your e-mail address">
+            <button>Sign Up</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+
+        <div class="column">
+            <img src="images/logo.jpeg" alt="logo" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>123 Jalan Noodle Sedap, Sungai Besi</p>
+            <p><strong>Phone: </strong>+60 123 4567</p>
+            <p><strong>Hours: </strong>10:00 - 22:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-discord"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="column">
+            <h4>My Purchase</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Favourites</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="column install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/App Store.png" alt="app Store">
+                <img src="images/Google Play.png" alt="google Play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/Payment.png" alt="payment methods">
+        </div>
+
+        <div class="copyright">
+            <p>&reg; 2022 Noodle House Sdn Bhd</p>
+        </div>    
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
