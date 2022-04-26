@@ -1,2 +1,4 @@
 # Noodle-House
-static e-commerce website
+Static e-commerce website
+
+![](images/Noodle%20House.gif)
